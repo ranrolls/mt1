@@ -1,0 +1,53 @@
+.ma-banner1 {
+    position:relative;
+    margin: 0 auto;
+    width: 944px;
+    height: 388px;
+    background: #fff;
+    padding: 8px;
+}
+.ma-banner1 li {
+    text-align: left;
+}
+.ft-prev, .ft-next {
+    display:inline-block;
+    width:45px;
+    height:95px;
+    text-indent:-9999px;
+    margin-top:-45px;
+    background:url("../images/arrows.png") no-repeat;
+}
+.ft-prev {
+    background-position:0 100%;
+    left:-23px !important;
+}
+.ft-prev:hover {
+    background-position:0 0;    
+}
+.ft-next {
+    right:-23px !important;
+    background-position:100% 100%;
+}
+.ft-next:hover {
+    background-position:100% 0;    
+}
+#ft-buttons-slideshowHolder {
+    position:absolute;
+    bottom:15px;
+    right:15px;
+    width:90px !important;
+}
+.ft-button-slideshowHolder {
+    float:left;
+    text-indent:-9999px;
+    width:7px;
+    height:7px;
+    background:url(../images/bnList.png) 0 0 no-repeat;
+    padding:0;
+    margin:0 0 0 5px;
+    display: block;
+    font-size: 0;
+}
+.ft-button-slideshowHolder-active {
+    background:url(../images/bnList.png) 0 100% no-repeat;
+}

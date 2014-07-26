@@ -1,0 +1,73 @@
+.ma-banner1-container {
+    position:relative;
+    margin:20px 0;
+}
+#slideshowWrapper {
+    position:relative;
+    margin:0 auto;
+    padding:8px;
+    background:#fff;
+}
+#bnPrev, #bnNext {
+    position:absolute;
+    top:50%;
+    width:45px;
+    height:95px;
+    margin-top:-45px;
+    background:url(../images/arrows.png) no-repeat 0 0;
+    text-indent:-999999px;
+}
+#bnPrev {    
+    left:-23px;
+    background-position:0 100%;
+}
+#bnPrev:hover {
+    background-position:0 0;
+}
+#bnNext {
+    right:-23px;
+    background-position:100% 100%;
+}
+#bnNext:hover {
+    background-position:100% 0;
+}
+#bnPlayPause {
+    position:absolute;
+    top:435px;
+    right:20px;
+    padding:4px 0 5px 0;
+    width:60px;
+    text-align:center;
+    display:block;
+    color:#333;
+    text-decoration:none;
+}
+ul#slideshow {
+    list-style:none;
+    overflow:hidden;
+}
+ul#slideshow li a {
+    display:block;
+}
+#bnList {
+    list-style:none;
+    bottom:15px;
+    right:15px;
+    position:absolute;
+}
+#bnList li {
+    display:inline;
+    padding:0;
+}
+#bnList li a {
+    float:left;
+    text-indent:-9999px;
+    width:17px;
+    height:17px;
+    background:url(../images/bnList.png) 0 0 no-repeat;
+    padding:0;
+    margin:0 0 0 5px;
+}
+#bnList li.bnActive a {
+    background:url(../images/bnList.png) 0 100% no-repeat;
+}

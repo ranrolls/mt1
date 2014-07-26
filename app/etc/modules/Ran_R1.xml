@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Ran_R1>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Ran_R1>
+    </modules>
+</config>

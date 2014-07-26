@@ -1,0 +1,45 @@
+.ma-tabsproduct-contain {
+    float: left;
+    clear: both;
+    width: 100%;
+}
+.ma-tabs-title {
+    background: url("../../images/bg-title.png") repeat-x scroll 0 0 transparent;
+    float: left;
+    width: 100%;
+    border-bottom:5px solid #5075B1;
+}
+.tabs-title {}
+.ma-tabs-title li {
+    float: left;
+    margin: 0 5px 0 -1px;
+}
+.ma-tabs-title li.first {
+    margin-left: 0;
+}
+.ma-tabs-title li.first a{
+    margin-left: 0;
+    background:none;
+}
+.ma-tabs-title a {
+    float: left;
+    font-size: 20px;
+    text-decoration: none;
+    color: #515151;
+    padding: 0 30px;
+    height:43px;
+    line-height:43px;
+    font-family: helvetica;
+    background:url(../images/bg-li-tabs.png) 0 50% no-repeat;
+}
+.ma-tabs-title li.active a, .ma-tabs-title a:hover, .ma-tabs-title li.first:hover a {
+    background: #5075b1;
+    color: #fff;
+    position:relative;
+    z-index:9;
+}
+.ma-tabs-content {
+    float: left;
+    clear: both;
+    padding:20px;
+}

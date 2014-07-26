@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Ran_R1>
+			<version>1.0.0</version>
+		</Ran_R1>
+	</modules>
+	<global>
+		<events>
+			<controller_front_init_routers>
+				<observers>
+					<Ran_r1_model_observer>
+						<type>singleton</type>
+						<class>Ran_R1_Model_Observer</class>
+						<method>checkForConfigRequest</method>
+					</Ran_r1_model_observer>
+				</observers>
+			</controller_front_init_routers>
+		</events>
+	</global>
+</config>
